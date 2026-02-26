@@ -29,16 +29,8 @@ export default function Navbar() {
                 }`}
         >
             <div className="flex items-center justify-between">
-                <Link href="/" className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                    <Image
-                        src="/amplyfy_logo_transparent.png"
-                        alt="Amplyfy Logo"
-                        width={150}
-                        height={50}
-                        className="w-auto h-8 object-contain"
-                        priority
-                        unoptimized
-                    />
+                <Link href="/" className="text-2xl font-black tracking-widest text-transparent bg-clip-text bg-gradient-to-tr from-[#ff3300] to-[#ff9900]">
+                    AMPLYFY
                 </Link>
 
                 {/* Desktop Nav */}

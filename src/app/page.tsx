@@ -12,7 +12,7 @@ export default function Home() {
     <main className="relative min-h-screen bg-transparent selection:bg-brand-orange/30">
       <Navbar />
 
-      <div className="sticky top-0 h-screen w-full -z-10">
+      <div className="sticky top-0 h-screen w-full z-0">
         <Hero />
       </div>
 
